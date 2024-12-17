@@ -75,7 +75,7 @@ def main():
         #return
     # Проверка аргументов командной строки
     if len(sys.argv) < 2:
-        print("Usage: py Lab1.py <URL>")
+        print("Usage: py [Название вашего файла].py <URL>")
         return
 
     url = sys.argv[1]  # URL из аргументов командной строки
